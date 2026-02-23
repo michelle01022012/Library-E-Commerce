@@ -4,7 +4,7 @@ function renderBooks() {
   booksWrapper.innerHTML =
     `<div class="book">
     <figure class="book__img--wrapper">
-       <img class="book__img" src="assets/deep work.jpg" alt="">
+       <img class="book__img" src="assets/deep work.jpeg" alt="">
      </figure>
     <div class="book__title">
     Deep Work
@@ -22,7 +22,7 @@ function renderBooks() {
     </div>`
 }
 
-setTimeout(() = {
+setTimeout(() => {
 renderBooks();
 });
 // FAKE DATA
